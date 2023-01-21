@@ -324,10 +324,6 @@
         display: none;
     }
 
-    .footer {
-        display: none;
-    }
-
     /* ------- */
 
     /* 1ª SESSÃO - EDUCAÇÃO FINANCEIRA */
@@ -377,7 +373,6 @@
     #educ-financeira img {
         width: 75%;
         margin-top: 15%;
-        /* não consigo centralizar a imagem */
     }
 
     /* ------- */
@@ -524,14 +519,6 @@
 
         padding: 3%;
     }
-
-    /* .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
-    } */
 
     /* ------- */
 
@@ -711,14 +698,6 @@
 
         padding: 3%;
     }
-
-    /* .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
-    } */
 
     /* ------- */
 

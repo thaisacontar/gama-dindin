@@ -169,7 +169,69 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-
+    #cursos h1 {
+        font-size: 2rem;
+    }
+    
+    #cursos small {
+        font-size: 1.2rem;
+    }
+    
+    /* .cards-cursos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+    
+    /* .cards-cursos h2 {
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        color: var(--secondary-color);    
+    } */
+    
+    /* .cards-cursos p {
+        font-size: var(--font-size-x-small);
+        font-weight: 300;
+        color: #000;
+    
+        margin: 20px 0px;
+    } */
+    
+    /* .cards-cursos-cada {
+        display: flex;
+        align-items: center;
+    
+        padding: 40px 0px;
+    } */
+    
+    /* .cards-cursos-cada-meio {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+    } */
+    
+    /* .cards-cursos-cada img {
+        width: 100%;
+    } */
+    
+    /* .cards-cursos-desc {
+        display: flex;
+        flex-direction: column;
+    
+        padding-left: 60px;
+    } */
+    
+    /* .cards-cursos-desc button {
+        font-size: var(--font-size-x-small);
+        font-weight: 400;
+    
+        color: #FFF;
+        background-color: var(--primary-color);
+    
+        border: 0;
+        border-radius: 30px;
+    
+        padding: 8px 40px;
+    } */
 
 }
 

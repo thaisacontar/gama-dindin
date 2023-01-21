@@ -84,7 +84,75 @@
 
 @media screen and (max-width: 480px) {
 
+    .show-nav {
+        display: block;
+
+        background: 0;
+        border: 0;
+
+        position: absolute;
+
+        width: 3rem;
+
+        top: 10px;
+        left: 10px;
+    }
+
+    .generic-session {
+        height: 100%;
+    }
     
+    .header {
+        display: none;
+    }
+
+    /* 1ª SESSÃO - CURSOS TOPO */
+
+    #curso-invest-top-h {
+        flex-direction: column-reverse;
+    }
+
+    .curso-invest-top-text {
+        width: 100vw;
+    }
+
+    .curso-invest-top-text h1 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-top-text p {
+        font-size:1.2rem;
+        text-align: center;
+    }
+
+    #curso-invest-top-h img {    
+        width: 90%;
+    }
+
+    /* 2ª SESSÃO - VÍDEOAULAS */
+
+    .curso-invest-posts {
+        flex-direction: column;
+    }
+
+    .curso-invest-posts-text {
+        width: 100%;
+    }
+
+    .curso-invest-posts-text h2 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-posts-text p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
 
 }
 
@@ -96,7 +164,53 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+    /* 1ª SESSÃO - CURSOS TOPO */
 
+    #curso-invest-top-h {
+        flex-direction: column-reverse;
+    }
+
+    .curso-invest-top-text {
+        width: 100vw;
+    }
+    
+    .curso-invest-top-text h1 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-top-text p {
+        font-size:1.2rem;
+        text-align: center;
+    }
+
+    #curso-invest-top-h img {    
+        width: 75%;
+    }
+
+    /* 2ª SESSÃO - VÍDEOAULAS */
+
+    .curso-invest-posts {
+        flex-direction: column;
+    }
+
+    .curso-invest-posts-text {
+        width: 100%;
+    }
+
+    .curso-invest-posts-text h2 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-posts-text p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
 
 }
 
@@ -108,6 +222,52 @@
 
 @media only screen and  (min-width: 769px) and (max-width: 1024px) {
 
+    /* 1ª SESSÃO - CURSOS TOPO */
 
+    #curso-invest-top-h {
+        flex-direction: column-reverse;
+    }
+
+    .curso-invest-top-text {
+        width: 100vw;
+    }
+    
+    .curso-invest-top-text h1 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-top-text p {
+        font-size:1.2rem;
+        text-align: center;
+    }
+
+    #curso-invest-top-h img {    
+        width: 75%;
+    }
+
+    /* 2ª SESSÃO - VÍDEOAULAS */
+
+    .curso-invest-posts {
+        flex-direction: column;
+    }
+
+    .curso-invest-posts-text {
+        width: 100%;
+    }
+
+    .curso-invest-posts-text h2 {
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 3% 0;
+    }
+
+    .curso-invest-posts-text p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
 
 }

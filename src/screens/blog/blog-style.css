@@ -141,10 +141,6 @@
         display: none;
     }
 
-    .footer {
-        display: none;
-    }
-
     /* ------- */
 
     /* BLOG - TOPO */
@@ -220,13 +216,6 @@
         padding: 3%;
     }
 
-    /* .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
-    } */
 }
     
 /* ------- */
@@ -242,13 +231,5 @@
 
         padding: 3%;
     }
-
-    /* .header {
-        display: none;
-    }
-
-    .footer {
-        display: none;
-    } */
     
 }

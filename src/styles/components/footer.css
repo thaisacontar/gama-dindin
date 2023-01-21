@@ -109,7 +109,7 @@ footer {
     }
 
     .footer-cta button {
-        width: 40vw;
+        width: 100%;
 
         font-size: 1rem;
     }
@@ -179,8 +179,6 @@ footer {
     }
 
     .footer-cta button {
-        width: 40vw;
-
         font-size: 1rem;
     }
 }
