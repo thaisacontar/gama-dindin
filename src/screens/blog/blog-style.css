@@ -1,0 +1,254 @@
+/* PÁGINA BLOG */
+
+.generic-session {
+    width: 100vw;
+
+    margin-bottom: 60px;
+}
+
+/* ------- */
+
+/* BLOG - TOPO */
+
+#blog-post-top-h {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#blog-post-top-h img {
+    position: relative;
+
+    margin-top: 5%;
+}
+
+.blog-post-top-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-top-txt h1 {
+    width: 400px;
+
+    color: var(--primary-color);
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--font-size-x-large);
+    font-weight: 700;
+
+    padding-bottom: 20px;
+}
+
+.blog-post-top-txt p {
+    width: 500px;
+    
+    color: #000;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--font-size-x-small);
+    font-weight: 300;
+}
+
+/* ------- */
+
+/* BLOG - TODOS OS POSTS */
+
+#blog-posts-page {
+    background-color: var(--background-color);
+
+    position: relative;
+}
+
+.blog-posts-h {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-bottom: 20px;
+}
+
+.blog-posts-h strong {
+    width: 40vw;
+
+    color: var(--secondary-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    
+    padding-top: 20px;
+}
+
+/* ------- */
+
+/* BLOG - CARDS DE CADA POST */
+
+.card-blog-posts {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0px 40px;
+}
+
+.card-blog-posts p {    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--font-size-xx-small);
+    font-weight: 300;
+    padding: 20px 0px;
+
+    color: #000
+}
+
+.card-blog-posts img {
+    width: 100%;
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS até 480px */
+
+/* ------- */
+
+@media screen and (max-width: 480px) {
+
+    .show-nav {
+        display: block;
+
+        background: 0;
+        border: 0;
+
+        position: absolute;
+
+        width: 3rem;
+
+        top: 10px;
+        left: 10px;
+    }
+
+    .generic-session {
+        height: 100%;
+    }
+    
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    /* ------- */
+
+    /* BLOG - TOPO */
+
+    #blog-post-top-h {
+        flex-direction: column-reverse;
+
+        padding: 0 20px;
+    }
+
+    #blog-post-top-h img {
+        margin: 10px;
+    }
+
+    .blog-post-top-txt {
+        text-align: center;
+    }
+
+    .blog-post-top-txt h1 {
+        font-size: 2rem;
+    }
+
+    .blog-post-top-txt p {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    /* ------- */
+
+    /* BLOG - TODOS OS POSTS */
+
+    .blog-posts-h {
+        flex-direction: column;
+    }
+
+    .blog-posts-h strong {
+        font-size: 1.5rem;
+    }
+
+    /* ------- */
+
+    /* BLOG - CARDS DE CADA POST */
+
+    .card-blog-posts {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .card-blog-posts p {    
+        font-size: 1rem;
+
+        text-align: center;
+    }
+
+    .card-blog-posts img {
+        margin-top: 20px;
+    }
+
+}
+    
+/* ------- */
+
+/* RESPONSIVO TELAS de 481px a 768px */
+
+/* ------- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .generic-session {
+        height: 100%;
+
+        padding: 3%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+    
+/* ------- */
+
+/* RESPONSIVO TELAS de 769px a 1024px */
+
+/* ------- */
+
+@media only screen and  (min-width: 769px) and (max-width: 1024px) {
+
+    .generic-session {
+        height: 100%;
+
+        padding: 3%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+    
+}

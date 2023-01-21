@@ -1,0 +1,186 @@
+#cursos {
+    margin: 0px 80px;
+}
+
+.cursos-title {
+    margin: 50px 0;
+}
+
+#cursos h1 {
+    font-size: var(--font-size-xxx-large);
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+#cursos small {
+    font-size: var(--font-size-x-small);
+    font-weight: 400;
+}
+
+.cards-cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-cursos h2 {
+    font-size: var(--font-size-medium);
+    font-weight: 700;
+    color: var(--secondary-color);    
+}
+
+.cards-cursos p {
+    font-size: var(--font-size-x-small);
+    font-weight: 300;
+    color: #000;
+
+    margin: 20px 0px;
+}
+
+.cards-cursos-cada {
+    display: flex;
+    align-items: center;
+
+    padding: 40px 0px;
+}
+
+.cards-cursos-cada-meio {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.cards-cursos-cada img {
+    width: 100%;
+}
+
+.cards-cursos-desc {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 60px;
+}
+
+.cards-cursos-desc button {
+    font-size: var(--font-size-x-small);
+    font-weight: 400;
+
+    color: #FFF;
+    background-color: var(--primary-color);
+
+    border: 0;
+    border-radius: 30px;
+
+    padding: 8px 40px;
+}
+
+.cards-cursos-desc button:hover {
+    background-color: var(--light-neutral-color);
+    transition: 0.5s;
+
+    cursor: pointer;
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS até 480px */
+
+/* ------- */
+
+@media screen and (max-width: 480px) {
+
+    .show-nav {
+        display: block;
+
+        background: 0;
+        border: 0;
+
+        position: absolute;
+
+        width: 3rem;
+
+        top: 10px;
+        left: 10px;
+    }
+
+    .generic-session {
+        height: 100%;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    #cursos {
+        margin: 5%;
+    }
+    
+    .cursos-title {
+        margin: 0;
+    }
+    
+    .cursos-title h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .cursos-title small {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .cards-cursos h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .cards-cursos p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .cards-cursos-cada {
+        flex-direction: column;
+    }
+    
+    .cards-cursos-cada img {
+        width: 50%;
+    }
+    
+    .cards-cursos-desc {    
+        padding-left: 0;
+    }
+
+    .cards-cursos-desc a {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cards-cursos-desc button {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS de 481px a 768px */
+
+/* ------- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS de 769px a 1024px */
+
+/* ------- */
+
+@media only screen and  (min-width: 769px) and (max-width: 1024px) {
+
+
+
+}

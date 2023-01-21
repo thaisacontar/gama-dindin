@@ -1,0 +1,113 @@
+.generic-session {
+    max-width: 100%;
+    padding: 40px;
+}
+
+/* 1ª SESSÃO - CURSOS TOPO */
+
+#curso-invest-top-h {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.curso-invest-top-text {
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.curso-invest-top-text h1 {
+    font-size: var(--font-size-xx-large);
+    font-weight: 700;
+    color: var(--secondary-color);
+
+    padding-bottom: 20px;
+}
+
+.curso-invest-top-text p {
+    font-size: var(--font-size-x-small);
+    font-weight: 300;
+}
+
+#curso-invest-top-h img {    
+    width: auto;
+
+    display: flex;
+    flex-grow: 0;
+}
+
+/* 2ª SESSÃO - VÍDEOAULAS */
+
+#curso-invest-posts-h {
+    background-color: var(--background-color);
+}
+
+.curso-invest-posts {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 40px 0;
+}
+
+.curso-invest-posts-text {
+    width: 50%;
+}
+
+.curso-invest-posts-text h2 {
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+
+    color: var(--secondary-color);
+}
+
+.curso-invest-posts-text p {
+    font-size: var(--font-size-xx-small);
+    font-weight: light;
+
+    padding-top: 5px;
+}
+
+.curso-invest-posts-meio {
+    border-top: 1.5px solid #C4C4C4;
+    border-bottom: 1.5px solid #C4C4C4;
+}
+
+
+
+/* ------- */
+
+/* RESPONSIVO TELAS até 480px */
+
+/* ------- */
+
+@media screen and (max-width: 480px) {
+
+    
+
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS de 481px a 768px */
+
+/* ------- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS de 769px a 1024px */
+
+/* ------- */
+
+@media only screen and  (min-width: 769px) and (max-width: 1024px) {
+
+
+
+}

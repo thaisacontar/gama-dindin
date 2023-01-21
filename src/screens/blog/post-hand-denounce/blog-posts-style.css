@@ -1,0 +1,363 @@
+/* PÁGINA DE CADA POST - ON THE OTHER HAND WE DENOUCE */
+
+#blog-post-hand-denouce {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#blog-post-hand-denouce h1 {
+    font-size: var(--font-size-x-large);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+#blog-post-hand-denouce small {
+    font-size: var(--font-size-x-small);
+    color: var(--light-neutral-color);
+    font-weight: 300;
+}
+
+#blog-post-hand-denouce img {
+    width: 80%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#blog-post-hand-denouce h2 {
+    font-size: var(--font-size-small);
+    color: var(--primary-color);
+    font-weight: 500;
+    
+    width: 80vw;
+
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#blog-post-hand-denouce p {
+    font-size: var(--font-size-x-small);
+    color: #000;
+    font-weight: 300;
+
+    text-align: justify;
+    
+    width: 80vw;
+}
+
+/* ------- */
+
+/* 2ª SESSÃO - CURSOS */
+
+#cursos {
+    background-color: var(--background-color)
+}
+
+#cursos h2 {    
+    font-size: var(--font-size-x-large);
+    color: var(--secondary-color);
+    font-weight: 500;
+
+    text-align: center;
+
+    padding-top: 60px;
+}
+
+#card-h {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    padding: 60px;
+}
+
+.card-cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.card-cursos strong {
+    font-size: var(--font-size-small);
+    color: var(--secondary-color);
+}
+
+.card-cursos p {
+    width: 65%;
+
+    font-size: var(--font-size-xx-small);
+    font-weight: 300;
+    text-align: center;
+}
+
+.card-cursos img {
+    height: 45%;
+}
+
+.card-cursos button {
+    font-size: var(--font-size-x-small);
+    color: #FFF;
+
+    background-color: var(--secondary-color);
+    
+    border: 1px solid var(--secondary-back-color);
+    border-radius: 30px;
+    padding: 15px 30px;
+
+    cursor: pointer;
+}
+
+.card-cursos button:hover {
+    color: #000;
+    background-color: var(--secondary-back-color);
+    transition: 0.5s;
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS até 480px */
+
+/* ------- */
+
+@media screen and (max-width: 480px) {
+
+    .show-nav {
+        display: block;
+
+        background: 0;
+        border: 0;
+
+        position: absolute;
+
+        width: 3rem;
+
+        top: 10px;
+        left: 10px;
+    }
+
+    .generic-session {
+        height: 100%;
+        max-width: 100%;
+    }
+    
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    /* ------- */
+
+    /* PÁGINA DE CADA POST - ON THE OTHER HAND WE DENOUCE */
+
+    #blog-post-hand-denouce {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #blog-post-hand-denouce h1 {
+        font-size: 2rem;
+    }
+
+    #blog-post-hand-denouce small {
+        font-size: 1rem;
+    }
+
+    #blog-post-hand-denouce h2 {
+        font-size: 1.5rem;
+    }
+
+    #blog-post-hand-denouce p {
+        font-size: 1.2rem;
+    }
+
+    /* ------- */
+
+    /* 2ª SESSÃO - CURSOS */
+
+    #cursos h2 {    
+        font-size: 2rem;
+    }
+
+    #card-h {
+        height: 100%;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding: 20px;
+    }
+
+    .card-cursos strong {
+        font-size: 1.5rem;
+        padding: 10px
+    }
+
+    .card-cursos {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .card-cursos p {
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+    }
+
+    .card-cursos button {
+        font-size: 1.2rem;
+        padding: 10px
+    }
+
+}
+
+/* ------- */
+
+/* RESPONSIVO TELAS de 481px a 768px */
+
+/* ------- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .generic-session {
+        height: 100%;
+
+        padding: 3%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    /* ------- */
+
+    /* 2ª SESSÃO - CURSOS */
+
+    #cursos {        
+        width: 100%;
+    }
+
+    #cursos h2 {
+        font-size: 2rem;
+    }
+
+    #card-h {
+        width: 100%;
+        height: auto;
+        align-items: baseline;
+
+        padding: 0;
+    }
+
+    .title-cursos {
+        padding: 5% 0;
+    }
+
+    .card-cursos {
+        justify-content: space-between ;
+    }
+
+    .card-cursos strong {
+        font-size: 1rem;
+
+        text-align: center;
+    }
+
+    .card-cursos p {
+        width: 80%;
+
+        font-size: 0.9rem;
+        padding: 1rem 0;
+    }
+
+    .card-cursos button {
+        font-size: 1rem;
+        padding: 0.2rem 1rem;
+    }
+
+}
+    
+/* ------- */
+
+/* RESPONSIVO TELAS de 769px a 1024px */
+
+/* ------- */
+
+@media only screen and  (min-width: 769px) and (max-width: 1024px) {
+
+    .generic-session {
+        height: 100%;
+
+        padding: 3%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    /* ------- */
+
+    /* 2ª SESSÃO - CURSOS */
+
+    #cursos {        
+        width: 100%;
+    }
+
+    #card-h {
+        width: 100%;
+        height: auto;
+        align-items: baseline;
+
+        padding: 0;
+    }
+
+    .title-cursos {
+        padding: 5% 0;
+    }
+
+    .card-cursos {
+        justify-content: space-between ;
+    }
+
+    .card-cursos strong {
+        font-size: 1.5rem;
+
+        text-align: center;
+    }
+
+    .card-cursos p {
+        width: 80%;
+
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+    .card-cursos button {
+        font-size: 1rem;
+        padding: 0.3rem 2rem;
+    }
+}
