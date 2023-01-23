@@ -136,6 +136,8 @@
 
     .curso-invest-posts {
         flex-direction: column;
+        
+        align-items: center;
     }
 
     .curso-invest-posts-text {
@@ -194,6 +196,8 @@
 
     .curso-invest-posts {
         flex-direction: column;
+        
+        align-items: center;
     }
 
     .curso-invest-posts-text {
@@ -252,6 +256,8 @@
 
     .curso-invest-posts {
         flex-direction: column;
+        
+        align-items: center;
     }
 
     .curso-invest-posts-text {
